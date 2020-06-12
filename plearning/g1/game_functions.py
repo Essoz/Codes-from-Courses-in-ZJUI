@@ -38,7 +38,7 @@ def check_events(ai_settings, screen, ship, bullets):
         # elif event.type == pygame.K_SPACE:
         #     new_bullet = Bullet(ai_settings)
 
-def update_bullets(aliens ,bullets):
+def update_bullets(ai_settings, screen, ship, aliens, bullets):
     bullets.update()
 
     for bullet in bullets.copy():
@@ -48,6 +48,11 @@ def update_bullets(aliens ,bullets):
 
     #collision detection
     collisions = pygame.sprite.groupcollide(bullets, aliens, False, True)
+
+    if len(aliens) == 0:
+        #clear the exisiting bullets and create a new group of aliens
+        bullets.empty()
+        create_fleet(ai_settings, screen, ship, aliens)
 
 def update_aliens(ai_settings, aliens):
     check_fleet_edges(ai_settings, aliens)
