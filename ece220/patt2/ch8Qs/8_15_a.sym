@@ -1,0 +1,9 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	AGAIN             3002
+//	A                 3005
+//	B                 3006
+//	KBSR              3007
+

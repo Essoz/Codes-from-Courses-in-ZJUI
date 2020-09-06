@@ -1,0 +1,16 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	TEST              3006
+//	NewCommand        3019
+//	Exit              301E
+//	PromptMsg         301F
+//	NegX              3031
+//	NegC              3032
+//	NegPlus           3033
+//	NegMinux          3034
+//	NegMult           3035
+//	NegD              3036
+//	StackMax          3037
+//	StackBase         3038

@@ -1,0 +1,15 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	START             3006
+//	INV               300A
+//	INV1              300B
+//	END               3012
+//	MXASCII           3013
+//	LOC               3014
+//	MSG               3015
+//	DSR               302F
+//	DDR               3030
+//	MASK              3031
+

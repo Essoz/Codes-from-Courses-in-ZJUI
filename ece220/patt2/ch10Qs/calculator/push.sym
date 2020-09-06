@@ -1,0 +1,10 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	PUSH              3050
+//	Overflow          3059
+//	Success_exit      3061
+//	SaveR1            3064
+//	SaveR7            3065
+//	OverflowMsg       3066

@@ -1,0 +1,11 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	POP               3030
+//	Underflow         3039
+//	SaveR7            3040
+//	UnderflowMsg      3041
+//	StackMax          3066
+//	StackBase         3067
+
